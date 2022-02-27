@@ -20,5 +20,5 @@ def load(file):
 	
 		
 data = load(fileIn)
-r = requests.post('http://localhost:5000', json=data)
+r = requests.post('https://pantherfi.wilsonbiggs.com/api', json=data)
 
