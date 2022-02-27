@@ -1,6 +1,9 @@
 import json
 import socket
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 fileIn = open('raw.json',)
 
