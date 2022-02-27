@@ -20,5 +20,5 @@ def load(file):
 	
 		
 data = load(fileIn)
-r = requests.post('localhost:5000', json=data)
+r = requests.post('http://localhost:5000', json=data)
 
